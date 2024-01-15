@@ -70,3 +70,182 @@ span{
     color: white;
     display: none;
 }
+
+/* banner style */
+#hero{
+
+}
+ .banner-slider .slick-slider{
+margin-bottom: 0;
+ }
+ .banner-slider .slick-dots{
+    width: 100%;
+    bottom: 6%;
+ }
+ .banner-slider .slick-dots li button::before{
+    font-size: 32px;
+    color: #ffff;
+    background-color: green;
+    border-radius: 50%;
+    opacity: 1;
+ }
+ .banner-slider .slick-dots li.slick-active button::before{
+    color: #ffff;
+    background-color: rgb(25, 11, 211);
+ }
+
+ .banner-slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    display: block;
+    /* z-index: 9; */
+    /* transform: translate(0, -50%); */
+    cursor: pointer;
+    margin: 0 1.5em;
+    font-size: 2em;
+    color: white;
+  
+ }
+ .banner-slider .slick-arrow:hover{
+    color: rgb(80, 78, 78);
+ }
+ .banner-slider .fa-solid.fa-arrow-left.slick-arrow{
+    
+    display: block;
+    z-index: 11;
+ }
+ 
+ 
+ .banner-slider .fa-solid.fa-arrow-right.slick-arrow{
+    display: block;
+    z-index: 12;
+    position: absolute;
+    right: 10px;
+    width: 5%;
+ }
+ 
+
+
+#slider-one{
+    background-image: linear-gradient(rgba(224, 203, 11, 0.452), rgba(196, 209, 17, 0.438)), url(../images/1.png);
+    
+ 
+}
+#slider-two{
+    background-image:  linear-gradient(rgba(224, 203, 11, 0.452), rgba(196, 209, 17, 0.438)), url(../images/2.png);
+
+}
+#slider-three{
+    background-image:  linear-gradient(rgba(224, 203, 11, 0.452), rgba(196, 209, 17, 0.438)), url(../images/3.png);
+
+}
+#slider-four{
+    background-image:  linear-gradient(rgba(224, 203, 11, 0.452), rgba(196, 209, 17, 0.438)), url(../images/4.png);
+
+}
+.slider{
+    /* background-image:  linear-gradient(rgba(224, 203, 11, 0.452), rgba(196, 209, 17, 0.438)), url(../images/1.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 50px 80px;
+    
+    }
+
+.slider-content{
+color: white;
+border: 2px solid yellow;
+border-bottom: none;
+padding: 15px;
+width: 45%;
+position: relative;
+top: 200px;
+
+
+}
+.slider-content h2{
+font-size: 3em;
+}
+.slider-content h2 span{
+    color:rgb(238, 241, 12) ;
+   
+}
+
+.btn-wrap{
+margin-top: 2em;
+}
+
+.btn-view-more{
+border: 2px solid white;
+background: none;
+padding: 10px 20px;
+border-radius: 8px;
+margin-right: 15px;
+}
+.btn-portfolio{
+    background-color:rgb(234, 238, 17) ;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+
+}
+.btn-portfolio:hover{
+    background-color:rgb(194, 191, 11) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive style */
+/* medium device */
+@media screen and (min-width:576px) and (max-width:960px){
+    
+
+   .header{
+    padding: 0, 10px;
+   
+   } 
+   .header-right .hamburger i{
+    cursor: pointer;
+    display: block;
+    margin-left: 20px;
+    align-items: center;
+   }
+   .header-left nav{
+    margin: 0;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: fit-content;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    transition: 0.4s;
+    z-index: 10;
+    padding: 30px;
+
+   }
+   .header-left nav .active{
+    top: 70px;
+}
+.header-left nav ul{
+    display: block;
+}
+
+
+}
