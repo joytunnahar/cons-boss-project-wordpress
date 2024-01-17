@@ -293,20 +293,20 @@ border-radius: 5px;
     border-radius: 5px;
 
 }
-form input, textarea{
+ input,  textarea{
     width: 100%;
     padding: 10px;
     border-radius: 5px;
     border: none;
     margin: 10px 0;
 }
-form input[type=submit], input[type=reset]{
+form input[type=submit], input[type=reset], .footer-form input[type=submit]{
     color: white;
     background-color: rgb(179, 182, 28);
     font-weight: bold;
     
 }
-form input[type=submit]:hover, input[type=reset]:hover{
+form input[type=submit]:hover, input[type=reset]:hover, .footer-form input[type=submit]:hover{
     background-color:rgb(234, 238, 17) ;
     color: black;
     font-weight: bold;
@@ -314,6 +314,42 @@ form input[type=submit]:hover, input[type=reset]:hover{
 
 form label{
     color: white;
+}
+
+/* footer style */
+.footer{
+    background-color: rgb(243, 248, 166);
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+   
+}
+.footer-about-us, .footer-address, .footer-form {
+    width: 30%;
+    margin-right: 20px;
+}
+.footer-menu-title{
+    color: rgb(109, 109, 35);
+   margin-bottom: 20px;
+    
+   
+    
+}
+.footer-description{
+    font-size: 0.8em;
+}
+.social-icons i{
+    background-color: rgb(245, 250, 245);
+    color: green;
+    font-size: 2em;
+    margin-right: 10px;
+}
+.footer-address span{
+    color: green;
+    font-size: 1em;
+    margin-right: 10px;
 }
 
 
