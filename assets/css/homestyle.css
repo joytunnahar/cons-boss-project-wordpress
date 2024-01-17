@@ -283,6 +283,39 @@ border-radius: 5px;
     height: 250px;
     border-radius: 10px;
 }
+/* contact us style */
+.form-container{
+    /* text-align: center; */
+    background-color: black;
+    width: 50%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+form input, textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+}
+form input[type=submit], input[type=reset]{
+    color: white;
+    background-color: rgb(179, 182, 28);
+    font-weight: bold;
+    
+}
+form input[type=submit]:hover, input[type=reset]:hover{
+    background-color:rgb(234, 238, 17) ;
+    color: black;
+    font-weight: bold;
+}
+
+form label{
+    color: white;
+}
+
 
 
 
